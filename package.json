@@ -1,0 +1,54 @@
+{
+  "name": "gunsnprices",
+  "version": "0.1.0",
+  "description": "Parse firearm and ammunition product titles: brand, model, caliber, magazine capacity, barrel length, rounds per box.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "gunsnprices": "bin/gunsnprices.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "index.d.ts",
+    "LICENSE",
+    "LICENSE-DATA",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "firearms",
+    "guns",
+    "ammunition",
+    "ammo",
+    "caliber",
+    "glock",
+    "title-parsing",
+    "product-matching",
+    "ecommerce",
+    "price-comparison"
+  ],
+  "author": "GunsNPrices <app@gunsnprices.com> (https://gunsnprices.com)",
+  "license": "(MIT AND CC-BY-4.0)",
+  "homepage": "https://gunsnprices.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gunsnprices/gunsnprices-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gunsnprices/gunsnprices-js/issues"
+  }
+}
