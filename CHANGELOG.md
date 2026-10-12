@@ -1,8 +1,8 @@
 # Changelog
 
-## 0.1.0 (2026-10-12)
+## 0.1.1 (2026-10-12)
 
-First release. JavaScript port of the [gunsnprices](https://pypi.org/project/gunsnprices/) Python package 0.1.0,
+First release on npm. JavaScript port of the [gunsnprices](https://pypi.org/project/gunsnprices/) Python package 0.1.1,
 with identical results on 63,755 store titles.
 
 - `parseTitle()`: firearm or ammo, brand, model, calibers, magazine capacity, barrel length, rounds per box, cost per round.

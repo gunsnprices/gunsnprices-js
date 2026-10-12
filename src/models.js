@@ -224,8 +224,11 @@ function leaf(r, d) {
     s = d.brand + " " + r.code;
     if (r.gen) s += r.gen === "V" ? " V" : " Gen " + r.gen;
   }
+  const words = (x) => x.toLowerCase().match(/[a-z0-9.&+]+/g) || [];
   for (const c of r.configs) {
-    if (!new RegExp("(?<![a-z0-9])" + reEscape(c) + "(?![a-z0-9])", "i").test(s)) s += " " + c;
+    // skip a config already spelled out in the name ("Plus Shield" on "S&W M&P Shield Plus")
+    const have = new Set(words(s));
+    if (!new RegExp("(?<![a-z0-9])" + reEscape(c) + "(?![a-z0-9])", "i").test(s) && !words(c).every((w) => have.has(w))) s += " " + c;
   }
   const needed = d.needed && has(d.needed, r.family) ? d.needed[r.family] : [];
   for (const f of d.feature_order || []) if (r.features.includes(f) && needed.includes(f)) s += " " + f;
