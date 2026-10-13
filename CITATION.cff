@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "gunsnprices: firearm and ammunition product title parser (JavaScript)"
+type: software
+authors:
+  - name: "GunsNPrices"
+    website: "https://gunsnprices.com"
+    email: "app@gunsnprices.com"
+abstract: "JavaScript port of the gunsnprices parser: brand, model, caliber, magazine capacity, barrel length, rounds per box and cost per round from US firearm and ammunition product titles."
+repository-code: "https://github.com/gunsnprices/gunsnprices-js"
+url: "https://gunsnprices.com"
+license: [MIT, CC-BY-4.0]
+version: "0.1.1"
+date-released: "2026-10-12"
+keywords:
+  - firearms
+  - ammunition
+  - caliber
+  - product title parsing
+  - price comparison
