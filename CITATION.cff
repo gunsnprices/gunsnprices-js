@@ -9,7 +9,7 @@ authors:
 abstract: "JavaScript port of the gunsnprices parser: brand, model, caliber, magazine capacity, barrel length, rounds per box and cost per round from US firearm and ammunition product titles."
 repository-code: "https://github.com/gunsnprices/gunsnprices-js"
 url: "https://gunsnprices.com"
-license: [MIT, CC-BY-4.0]
+license: MIT
 version: "0.1.2"
 date-released: "2026-10-13"
 keywords:
