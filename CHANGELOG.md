@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.2 (2026-10-13)
+
+- Also published on JSR: `npx jsr add @gunsnprices/gunsnprices` (https://jsr.io/@gunsnprices/gunsnprices).
+- `CITATION.cff` for citing the package (Zenodo DOI per release).
+- No code changes.
+
 ## 0.1.1 (2026-10-12)
 
 First release on npm. JavaScript port of the [gunsnprices](https://pypi.org/project/gunsnprices/) Python package 0.1.1,

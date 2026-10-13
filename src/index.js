@@ -6,4 +6,4 @@ export { parseTitle } from "./parse.js";
 export { identifyModel, listBrands } from "./models.js";
 export { findCalibers, findCaliber, normalizeCaliber, listCalibers } from "./calibers.js";
 export { magazineCapacity, barrelLength, roundsPerBox, costPerRound, looksLikeAmmo } from "./specs.js";
-export const VERSION = "0.1.1";
+export const VERSION = "0.1.2";

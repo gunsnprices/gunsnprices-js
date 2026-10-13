@@ -32,6 +32,8 @@ same 1,150 recorded titles, and they agree on all 63,755 titles of the GunsNPric
 
 ```bash
 npm install gunsnprices
+# or from JSR
+npx jsr add @gunsnprices/gunsnprices
 ```
 
 ## What it recognizes

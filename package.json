@@ -1,6 +1,6 @@
 {
   "name": "gunsnprices",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parse firearm and ammunition product titles: brand, model, caliber, magazine capacity, barrel length, rounds per box.",
   "type": "module",
   "main": "./src/index.js",
