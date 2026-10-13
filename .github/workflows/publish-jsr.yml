@@ -1,0 +1,22 @@
+# Publishes the package to JSR (jsr.io/@gunsnprices/gunsnprices) with GitHub OIDC.
+# Requires the JSR package to be linked to this repository (package settings on jsr.io).
+name: Publish to JSR
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm test
+      - run: npx -y jsr publish
