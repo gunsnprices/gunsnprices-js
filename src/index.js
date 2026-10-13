@@ -1,3 +1,4 @@
+// @ts-self-types="../index.d.ts"
 // gunsnprices - parse firearm and ammunition product titles.
 // Brand and model (Glock 19 Gen 5 MOS), caliber, magazine capacity, barrel length, rounds per box and cost per round.
 // Built on the model dictionaries and caliber list behind https://gunsnprices.com.
