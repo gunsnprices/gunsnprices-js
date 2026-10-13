@@ -1,7 +1,7 @@
 {
   "name": "@gunsnprices/gunsnprices",
   "version": "0.1.2",
-  "license": "MIT AND CC-BY-4.0",
+  "license": "MIT",
   "exports": "./src/index.js",
   "publish": {
     "include": ["src/**/*.js", "index.d.ts", "README.md", "LICENSE", "LICENSE-DATA", "CHANGELOG.md", "jsr.json"]
